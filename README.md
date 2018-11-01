@@ -5,7 +5,7 @@ Porto Seguro, one of Brazil’s largest auto and homeowner insurance companies, 
 ## Data Source
 The data is taken from a Kaggle dataset: [PCA analysis with Decision Tree](https://www.kaggle.com/priyasd/portoseguro)   
 
-The data consist of two csv file: test and train. train file include the target column which is the number that customer make claimm while the test file dont include the target column. The goal is to predict the target column for test file.
+The data consists of two csv file: test and train. train file include the target column which is the number that customer make claimm while the test file dont include the target column. The goal is to predict the target column for test file.
 
 ## Pseudo code 
 #Preprocessing the _train_ data    
@@ -23,7 +23,7 @@ The data consist of two csv file: test and train. train file include the target 
 ![alt text](https://github.com/phylliskaka/Porto-Seguro-autoinsurance-claim-probability-prediction/blob/master/all%20principal%20component.png)
 
 The first and second principal components only take 10% of total sum of eigenvalue. However, we are not sure it is noise or not.   
-So we predict the data that reduced to 2, 10, 18, 26, 32, 40, 48 dimensions.The result turn out to be following:
+So we predict the data that reduced to 2, 10, 18, 26, 32, 40, 48 dimensions. The result turn out to be following:
 ![alt text](https://github.com/phylliskaka/Porto-Seguro-autoinsurance-claim-probability-prediction/blob/master/train_accuracy.png)    
 The accuracy of experiment decreases with number of dimension increasing.    
 
