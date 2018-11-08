@@ -62,13 +62,13 @@ import matplotlib.pyplot as plt
 plt.figure();plt.plot(n_comp_vals,accuracy)
 
 #%%
-##test dataset 
-#X_test = test_data
-#X_test = sc.transform(X_test)
-#X_test = pca.transform(X_test)
-#Y_test_prediction = clf_gini.predict(X_test)
-#
-##output is Y_test_prediction 
+#test dataset 
+X_test = test_data
+X_test = sc.transform(X_test)
+X_test = pca.transform(X_test)
+Y_test_prediction = clf_gini.predict(X_test)
+
+#output is Y_test_prediction 
 
 
 
